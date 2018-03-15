@@ -1,0 +1,46 @@
+DEBUG:root:2018-03-15 22:02:59.129272 Running Ebay Navigation Test Cases 
+DEBUG:root:2018-03-15 22:02:59.129272 ************* Starting **************
+DEBUG:root:2018-03-15 22:02:59.129272 Created TestSuite
+DEBUG:root:2018-03-15 22:02:59.129272 Ebay navigation test suite adding Add item to shopping cart & validate the navigation of pages
+DEBUG:root:2018-03-15 22:02:59.129772 Ebay navigation test suite adding Search top 5 brands of Electronics category
+DEBUG:root:2018-03-15 22:02:59.129772 Start testing 000_Test_Add item to shopping cart & validate the navigation of pages
+DEBUG:root:2018-03-15 22:02:59.129772 Creating Driver ...
+DEBUG:root:2018-03-15 22:02:59.129772 Using Firefox Web driver
+DEBUG:root:2018-03-15 22:03:03.355427 --------Performing GUI Navigation-------
+DEBUG:root:2018-03-15 22:03:05.105073 Clicking on //li[@class='hl-cat-nav__js-tab']//a[text()='Electronics']
+DEBUG:root:2018-03-15 22:03:05.262685 --------Performing GUI Element Checking-------
+DEBUG:root:2018-03-15 22:03:05.263186 Looking for Electronics Category Header element on the screen
+DEBUG:root:2018-03-15 22:03:06.952573 --------GUI Checking have been completed successfully-------
+DEBUG:root:2018-03-15 22:03:06.952573 --------Performing GUI Navigation-------
+DEBUG:root:2018-03-15 22:03:06.982096 Clicking on //div[text()='Laptops & Tablets']
+DEBUG:root:2018-03-15 22:03:08.938946 Clicking on //div[text()='Apple Laptops']
+DEBUG:root:2018-03-15 22:03:09.054039 --------Performing GUI Element Checking-------
+DEBUG:root:2018-03-15 22:03:09.054039 Looking for Apple Laptops Category Header element on the screen
+DEBUG:root:2018-03-15 22:03:11.123771 --------GUI Checking have been completed successfully-------
+DEBUG:root:2018-03-15 22:03:11.123771 --------Performing GUI Navigation-------
+DEBUG:root:2018-03-15 22:03:11.163298 Clicking on //h3[contains(text(),'Apple Macbook Pro 13-Inch')]
+DEBUG:root:2018-03-15 22:03:14.540582 Clicking on //a[contains(text(),'Add to cart')]
+DEBUG:root:2018-03-15 22:03:14.733491 --------Performing GUI Element Checking-------
+DEBUG:root:2018-03-15 22:03:14.733491 Looking for Your eBay Shopping Cart Header element on the screen
+DEBUG:root:2018-03-15 22:03:17.131416 --------GUI Checking have been completed successfully-------
+DEBUG:root:2018-03-15 22:03:17.131416 --------Performing GUI Navigation-------
+DEBUG:root:2018-03-15 22:03:17.175937 Clicking on //a[text()='Proceed to checkout']
+DEBUG:root:2018-03-15 22:03:20.002173 Clicking on //input[contains(@value,'Continue as')]
+DEBUG:root:2018-03-15 22:03:20.100542 --------Performing GUI Element Checking-------
+DEBUG:root:2018-03-15 22:03:20.100542 Looking for Confirm and Pay Button element on the screen
+DEBUG:root:2018-03-15 22:03:24.077965 --------GUI Checking have been completed successfully-------
+DEBUG:root:2018-03-15 22:03:24.447708 All done
+DEBUG:root:2018-03-15 22:03:24.447708 Start testing 001_Test_Search top 5 brands of Electronics category
+DEBUG:root:2018-03-15 22:03:24.448206 Creating Driver ...
+DEBUG:root:2018-03-15 22:03:24.448206 Using Firefox Web driver
+DEBUG:root:2018-03-15 22:03:28.457803 --------Performing GUI Navigation-------
+DEBUG:root:2018-03-15 22:03:30.311528 Clicking on //li[@class='hl-cat-nav__js-tab']//a[text()='Electronics']
+DEBUG:root:2018-03-15 22:03:30.547696 --------Performing GUI Element Checking-------
+DEBUG:root:2018-03-15 22:03:30.548196 Looking for Top Brand/Store 2: Dell element on the screen
+DEBUG:root:2018-03-15 22:03:32.358560 Looking for Top Brand/Store 1: Bing Lee element on the screen
+DEBUG:root:2018-03-15 22:03:32.374582 Looking for Top Brand/Store 3: EB Games element on the screen
+DEBUG:root:2018-03-15 22:03:32.390094 Looking for Top Brand/Store 4: Futu Online element on the screen
+DEBUG:root:2018-03-15 22:03:32.406093 Looking for Top Brand/Store 5: KG Electronics element on the screen
+DEBUG:root:2018-03-15 22:03:32.421605 --------GUI Checking have been completed successfully-------
+DEBUG:root:2018-03-15 22:03:32.651900 All done
+DEBUG:root:2018-03-15 22:03:32.652391 ************* Test Completed **************
